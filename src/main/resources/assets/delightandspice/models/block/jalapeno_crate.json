@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "delightandspice:block/jalapeno_crate_side",
+    "bottom": "delightandspice:block/crate_bottom",
+    "top": "delightandspice:block/jalapeno_crate_top"
+  }
+}
