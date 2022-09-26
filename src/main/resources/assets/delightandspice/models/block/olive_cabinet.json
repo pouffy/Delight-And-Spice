@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "delightandspice:block/olive_cabinet_side",
+    "front": "delightandspice:block/olive_cabinet_front",
+    "top": "delightandspice:block/olive_cabinet_top"
+  }
+}

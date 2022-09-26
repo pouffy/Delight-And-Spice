@@ -1,0 +1,37 @@
+{
+  "parent": "delightandspice:main/root",
+  "display": {
+    "icon": {
+      "item": "delightandspice:ginger_roots"
+    },
+    "title": {
+      "translate": "delightandspice.advancement.get_ginger_roots"
+    },
+    "description": {
+      "translate": "delightandspice.advancement.get_ginger_roots.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_ginger_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightandspice:ginger_roots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ginger_roots"
+    ]
+  ]
+}

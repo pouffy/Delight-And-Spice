@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "delightandspice:block/wild_jalapenos"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "delightandspice:jalapeno"
+    },
+    "title": {
+      "translate": "delightandspice.advancement.root"
+    },
+    "description": {
+      "translate": "delightandspice.advancement.root.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "farmersdelight:textures/block/rich_soil.png"
+  },
+  "criteria": {
+    "seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "seeds"
+    ]
+  ]
+}

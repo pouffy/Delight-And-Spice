@@ -1,0 +1,22 @@
+{
+  "item.delightandspice.jalapeno": "Jalapeño",
+  "item.delightandspice.jalapeno_powder": "Jalapeño Powder",
+  "item.delightandspice.carrot_juice": "Carrot Juice",
+  "item.delightandspice.chopped_carrots": "Chopped Carrots",
+  "item.delightandspice.lamb_tajine": "Bowl of Lamb Tajine",
+  "item.delightandspice.chermoula": "Chermoula",
+  "item.delightandspice.ginger_roots": "Ginger Roots",
+  "item.delightandspice.lemon_juice": "Lemon Juice",
+  "item.delightandspice.olive_oil": "Olive Oil",
+  "item.delightandspice.garlic": "Garlic",
+  "item.delightandspice.tajine_base": "Tajine Base",
+  "block.delightandspice.wild_jalapenos": "Wild Jalapeños",
+  "block.delightandspice.lamb_tajine_block": "Lamb Tajine",
+  "block.delightandspice.olive_log": "Olive Log",
+  "block.delightandspice.olive_planks": "Olive Planks",
+  "effect.delightandspice.spicy": "Spicy",
+  "delightandspice.advancement.get_ginger_roots": "It looks almost... Tumor-ish",
+  "delightandspice.advancement.get_ginger_roots.desc": "Yea ginger itself is really tumor-ish...",
+  "delightandspice.advancement.root": "Delight And Spice",
+  "delightandspice.advancement.root.desc": "Even more flavours and spices await!"
+}

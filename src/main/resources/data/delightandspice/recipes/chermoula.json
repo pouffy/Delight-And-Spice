@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "delightandspice:jalapeno_powder"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "delightandspice:garlic"
+    },
+    {
+      "item": "delightandspice:ginger_roots"
+    },
+    {
+      "item": "delightandspice:olive_oil"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "result": {
+    "item": "delightandspice:chermoula"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

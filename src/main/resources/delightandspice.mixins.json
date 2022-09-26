@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "pouffy.delightandspice.common.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "delightandspice.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "delightandspice:chermoula"
+    },
+    {
+      "tag": "forge:cooked_mutton"
+    },
+    {
+      "item": "delightandspice:lemon_juice"
+    },
+    {
+      "item": "delightandspice:chopped_carrots"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "delightandspice:lamb_tajine_block"
+  },
+  "container": {
+    "item": "delightandspice:tajine_base"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
