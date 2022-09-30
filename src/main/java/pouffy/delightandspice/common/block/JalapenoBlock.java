@@ -175,7 +175,7 @@ public class JalapenoBlock extends BushBlock implements BonemealableBlock
             popResource(worldIn, pos, new ItemStack(pouffy.delightandspice.common.registry.ModItems.JALAPENO.get(), j));
 
             if (worldIn.random.nextFloat() < 0.05) {
-                popResource(worldIn, pos, new ItemStack(ModItems.JALAPENO.get()));
+                popResource(worldIn, pos, new ItemStack(ModItems.FAIRY_CHILLI.get()));
             }
 
             worldIn.playSound(null, pos, ModSounds.ITEM_TOMATO_PICK_FROM_BUSH.get(), SoundSource.BLOCKS, 1.0F, 0.8F + worldIn.random.nextFloat() * 0.4F);

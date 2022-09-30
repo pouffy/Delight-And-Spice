@@ -1,0 +1,33 @@
+{
+  "parent": "delightandspice:main/root",
+  "display": {
+    "icon": {
+      "item": "delightandspice:jalapeno"
+    },
+    "title": {
+      "translate": "delightandspice.advancement.eat_spicy_food"
+    },
+    "description": {
+      "translate": "delightandspice.advancement.eat_spicy_food.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "spicy": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "delightandspice:spicy": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spicy"
+    ]
+  ]
+}

@@ -21,6 +21,8 @@ public class ModItems {
 //FOOD ITEMS
     public static final RegistryObject<Item> JALAPENO = ITEMS.register("jalapeno",
             () -> new ConsumableItem(new Item.Properties().food(ExtraFoodValues.JALAPENO).tab(DelightAndSpice.CREATIVE_TAB), true, false));
+    public static final RegistryObject<Item> FAIRY_CHILLI = ITEMS.register("fairy_chilli",
+            () -> new ConsumableItem(new Item.Properties().food(ExtraFoodValues.FAIRY_CHILLI).tab(DelightAndSpice.CREATIVE_TAB), true, false));
     public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",
             () -> new DrinkableItem(new Item.Properties().food(ExtraFoodValues.CARROT_JUICE).craftRemainder(Items.GLASS_BOTTLE)
                     .stacksTo(16).tab(DelightAndSpice.CREATIVE_TAB), true, false));

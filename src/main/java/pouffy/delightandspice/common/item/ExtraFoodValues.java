@@ -13,10 +13,13 @@ public class ExtraFoodValues extends FoodValues {
     }, 1.0F).build();
     public static final FoodProperties JALAPENO = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(ModEffects.SPICY.get(), 200, 0);
-    }, 1.0F).build();
+    }, 1.0F).nutrition(2).build();
+    public static final FoodProperties FAIRY_CHILLI = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(ModEffects.SPICY.get(), 600, 0);
+    }, 1.0F).nutrition(2).build();
     public static final FoodProperties CHERMOULA = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(vectorwing.farmersdelight.common.registry.ModEffects.COMFORT.get(), 3600, 0);
-    }, 1.0F).build();
+    }, 1.0F).nutrition(2).build();
     public static final FoodProperties OLIVES = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(MobEffects.REGENERATION, 100, 0);
     }, 0.3F).build();
@@ -30,5 +33,5 @@ public class ExtraFoodValues extends FoodValues {
     }, 1.0F).build();
     public static final FoodProperties LAMB_TAJINE = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(vectorwing.farmersdelight.common.registry.ModEffects.NOURISHMENT.get(), 6000, 0);
-    }, 1.0F).build();
+    }, 1.0F).nutrition(12).saturationMod(6).build();
 }

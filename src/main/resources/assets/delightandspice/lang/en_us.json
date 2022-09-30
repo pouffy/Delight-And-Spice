@@ -1,6 +1,7 @@
 {
   "item.delightandspice.jalapeno": "Jalapeño",
   "item.delightandspice.jalapeno_powder": "Jalapeño Powder",
+  "item.delightandspice.fairy_chilli": "Fairy Chilli",
   "item.delightandspice.carrot_juice": "Carrot Juice",
   "item.delightandspice.chopped_carrots": "Chopped Carrots",
   "item.delightandspice.lamb_tajine": "Bowl of Lamb Tajine",
@@ -14,9 +15,12 @@
   "block.delightandspice.lamb_tajine_block": "Lamb Tajine",
   "block.delightandspice.olive_log": "Olive Log",
   "block.delightandspice.olive_planks": "Olive Planks",
+  "block.delightandspice.olive_leaves": "Olive Leaves",
   "effect.delightandspice.spicy": "Spicy",
   "delightandspice.advancement.get_ginger_roots": "It looks almost... Tumor-ish",
   "delightandspice.advancement.get_ginger_roots.desc": "Yea ginger itself is really tumor-ish...",
   "delightandspice.advancement.root": "Delight And Spice",
-  "delightandspice.advancement.root.desc": "Even more flavours and spices await!"
+  "delightandspice.advancement.root.desc": "Even more flavours and spices await!",
+  "delightandspice.advancement.eat_spicy_food": "HOT",
+  "delightandspice.advancement.eat_spicy_food.desc": "Taste a spicy chilli"
 }
