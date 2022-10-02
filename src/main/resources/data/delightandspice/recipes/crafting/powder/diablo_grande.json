@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "delightandspice:smoked_diablo_grande"
+    }
+  ],
+  "result": {
+    "item": "delightandspice:diablo_grande_powder",
+    "count": 2
+  }
+}

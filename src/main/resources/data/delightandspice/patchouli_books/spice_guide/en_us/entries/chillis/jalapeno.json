@@ -1,0 +1,21 @@
+{
+  "name": "Jalapeños",
+  "icon": "delightandspice:jalapeno",
+  "category": "delightandspice:chillis",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "delightandspice:jalapeno",
+      "text": "Jalapeños are spicy chilli peppers! If you're brave enough to eat one then you'll find yourself burning from the inside! When harvesting from crops they have a chance to grow Fairy Chillis."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "delightandspice:crafting/powder/jalapeno",
+      "text": "Jalapeños can be smoked and then crafted into a powder. This is a useful spice for cooking!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The jalapeño is variously named huachinango, for the ripe red jalapeño, and chile gordo (meaning \"fat chili pepper\") also known as cuaresmeño. The name jalapeño is Spanish for \"from Xalapa\", the capital city of Veracruz, Mexico, where the pepper was traditionally cultivated."
+    }
+  ]
+}

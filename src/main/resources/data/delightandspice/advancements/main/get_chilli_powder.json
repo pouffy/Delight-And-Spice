@@ -1,0 +1,50 @@
+{
+  "parent": "delightandspice:main/get_chilli_pepper",
+  "display": {
+    "icon": {
+      "item": "delightandspice:jalapeno_powder"
+    },
+    "title": {
+      "translate": "delightandspice.advancement.get_chilli_powder"
+    },
+    "description": {
+      "translate": "delightandspice.advancement.get_chilli_powder.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jalapeno_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightandspice:jalapeno_powder"
+            ]
+          }
+        ]
+      }
+    },
+    "diablo_grande_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightandspice:diablo_grande_powder"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jalapeno_powder",
+      "diablo_grande_powder"
+    ]
+  ]
+}

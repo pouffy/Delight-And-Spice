@@ -1,6 +1,6 @@
 package pouffy.delightandspice.common.item;
 
-import net.minecraft.world.effect.MobEffect;
+
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -14,6 +14,18 @@ public class ExtraFoodValues extends FoodValues {
     public static final FoodProperties JALAPENO = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(ModEffects.SPICY.get(), 200, 0);
     }, 1.0F).nutrition(2).build();
+    public static final FoodProperties DIABLO_GRANDE = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(ModEffects.SPICY.get(), 400, 0);
+    }, 1.0F).nutrition(2).build();
+    public static final FoodProperties GOLDEN_CHILLI = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 1200, 0);
+    }, 1.0F).nutrition(2).build();
+    public static final FoodProperties SMOKED_JALAPENO = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(ModEffects.SPICY.get(), 400, 0);
+    }, 1.0F).nutrition(4).build();
+    public static final FoodProperties SMOKED_DIABLO_GRANDE = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(ModEffects.SPICY.get(), 600, 0);
+    }, 1.0F).nutrition(4).build();
     public static final FoodProperties FAIRY_CHILLI = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(ModEffects.SPICY.get(), 600, 0);
     }, 1.0F).nutrition(2).build();

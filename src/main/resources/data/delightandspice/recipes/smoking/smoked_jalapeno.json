@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "delightandspice:jalapeno"
+  },
+  "result": "delightandspice:smoked_jalapeno",
+  "experience": 0.35,
+  "cookingtime": 100
+}

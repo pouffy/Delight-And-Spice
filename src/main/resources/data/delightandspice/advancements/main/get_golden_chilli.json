@@ -1,14 +1,14 @@
 {
-  "parent": "delightandspice:main/root",
+  "parent": "delightandspice:main/get_chilli_pepper",
   "display": {
     "icon": {
-      "item": "delightandspice:ginger_roots"
+      "item": "delightandspice:golden_chilli"
     },
     "title": {
-      "translate": "delightandspice.advancement.get_ginger_roots"
+      "translate": "delightandspice.advancement.get_golden_chilli"
     },
     "description": {
-      "translate": "delightandspice.advancement.get_ginger_roots.desc"
+      "translate": "delightandspice.advancement.get_golden_chilli.desc"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,13 +16,13 @@
     "hidden": false
   },
   "criteria": {
-    "get_ginger_roots": {
+    "get_golden_chilli": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "delightandspice:ginger_roots"
+              "delightandspice:golden_chilli"
             ]
           }
         ]
@@ -31,7 +31,7 @@
   },
   "requirements": [
     [
-      "get_ginger_roots"
+      "get_golden_chilli"
     ]
   ]
 }

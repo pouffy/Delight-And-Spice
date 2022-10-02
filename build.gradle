@@ -128,6 +128,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
 
     implementation fg.deobf("curse.maven:farmers_delight-398521:${project.farmersDelight}")
+    implementation fg.deobf("curse.maven:patchouli-306770:${project.patchouli}")
     /* CT documentation
     annotationProcessor "com.blamejared.crafttweaker:CraftTweaker-${mc_version}:${crafttweaker_version}"
     annotationProcessor "com.blamejared.crafttweaker:Crafttweaker_Annotation_Processors-${mc_version}:${crafttweaker_annotations_version}"

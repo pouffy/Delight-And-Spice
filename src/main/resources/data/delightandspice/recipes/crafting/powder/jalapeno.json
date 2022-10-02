@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "delightandspice:smoked_jalapeno"
+    }
+  ],
+  "result": {
+    "item": "delightandspice:jalapeno_powder",
+    "count": 2
+  }
+}

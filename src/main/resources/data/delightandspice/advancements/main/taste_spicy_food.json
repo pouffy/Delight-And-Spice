@@ -2,7 +2,7 @@
   "parent": "delightandspice:main/root",
   "display": {
     "icon": {
-      "item": "delightandspice:jalapeno"
+      "item": "minecraft:campfire"
     },
     "title": {
       "translate": "delightandspice.advancement.eat_spicy_food"

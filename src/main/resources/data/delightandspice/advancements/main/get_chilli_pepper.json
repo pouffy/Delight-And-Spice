@@ -1,0 +1,63 @@
+{
+  "parent": "delightandspice:main/root",
+  "display": {
+    "icon": {
+      "item": "delightandspice:jalapeno"
+    },
+    "title": {
+      "translate": "delightandspice.advancement.get_chilli_pepper"
+    },
+    "description": {
+      "translate": "delightandspice.advancement.get_chilli_pepper.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jalapeno": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightandspice:jalapeno"
+            ]
+          }
+        ]
+      }
+    },
+    "diablo_grande": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightandspice:diablo_grande"
+            ]
+          }
+        ]
+      }
+    },
+    "fairy_chilli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightandspice:fairy_chilli"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fairy_chilli",
+      "jalapeno",
+      "diablo_grande"
+    ]
+  ]
+}

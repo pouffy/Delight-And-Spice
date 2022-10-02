@@ -1,0 +1,6 @@
+{
+  "name": "Chillis",
+  "description": "Red Hot Chilli Peppers await!",
+  "icon": "delightandspice:fairy_chilli",
+  "parent": "delightandspice:farming"
+}

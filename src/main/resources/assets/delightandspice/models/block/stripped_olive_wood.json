@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "delightandspice:block/stripped_olive_log",
+    "side": "delightandspice:block/stripped_olive_log"
+  }
+}

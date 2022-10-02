@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "delightandspice:jalapeno"
+      "item": "patchouli:guide_book",
+      "nbt": "{\"patchouli:book\":\"delightandspice:spice_guide\"}"
     },
     "title": {
       "translate": "delightandspice.advancement.root"

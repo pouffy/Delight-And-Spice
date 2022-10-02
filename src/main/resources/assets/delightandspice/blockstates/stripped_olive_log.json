@@ -1,0 +1,14 @@
+{
+  "variants":{
+    "axis=y":{
+      "model":"delightandspice:block/stripped_olive_log"},
+    "axis=z":{
+      "model":"delightandspice:block/stripped_olive_log",
+      "x":90},
+    "axis=x":{
+      "model":"delightandspice:block/stripped_olive_log",
+      "x":90,
+      "y":90
+    }
+  }
+}

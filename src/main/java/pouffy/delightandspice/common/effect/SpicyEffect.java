@@ -14,7 +14,7 @@ public class SpicyEffect extends MobEffect {
 
 
         pLivingEntity.displayFireAnimation();
-        pLivingEntity.hurt(DamageSource.ON_FIRE, 2.0F);
+        pLivingEntity.hurt(DamageSource.ON_FIRE, 0.5F);
 
 
         super.applyEffectTick(pLivingEntity, pAmplifier);

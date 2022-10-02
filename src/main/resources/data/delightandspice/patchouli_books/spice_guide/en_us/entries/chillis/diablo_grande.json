@@ -1,0 +1,21 @@
+{
+  "name": "Diablo Grandes",
+  "icon": "delightandspice:diablo_grande",
+  "category": "delightandspice:chillis",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "delightandspice:diablo_grande",
+      "text": "Diablo Grandes are spicy chillis... Spicier than jalapeños! Gilding them can create a tasty surprise."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "delightandspice:crafting/powder/diablo_grande",
+      "text": "Diablo Grandes can be smoked and then crafted into a powder. This is a useful spice for cooking!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Diablo Grande comes from the same group that includes jalapenos, poblanos, cayenne, and Serrano peppers. The fruits of this chile start out yellow-green and ripen to red, with a narrow crescent-shape and somewhat thick flesh."
+    }
+  ]
+}

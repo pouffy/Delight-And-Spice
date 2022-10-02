@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "delightandspice:diablo_grande"
+  },
+  "result": "delightandspice:smoked_diablo_grande",
+  "experience": 0.35,
+  "cookingtime": 100
+}

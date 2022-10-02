@@ -1,7 +1,6 @@
 package pouffy.delightandspice.common.registry;
 
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
@@ -10,22 +9,22 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import pouffy.delightandspice.DelightAndSpice;
-import pouffy.delightandspice.common.block.JalapenoBlock;
-import pouffy.delightandspice.common.block.LambTajineBlock;
-import pouffy.delightandspice.common.block.PlankBlock;
+import pouffy.delightandspice.common.block.*;
 import pouffy.delightandspice.common.world.feature.tree.OliveTreeGrower;
-import vectorwing.farmersdelight.FarmersDelight;
 import vectorwing.farmersdelight.common.block.CabinetBlock;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.ToIntFunction;
-
+@SuppressWarnings("unused")
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DelightAndSpice.MODID);
 
     private static ToIntFunction<BlockState> litBlockEmission(int lightValue) {
         return (state) -> state.getValue(BlockStateProperties.LIT) ? lightValue : 0;
     }
+    //CROP + SPICE STORAGE
+    public static final RegistryObject<Block> JALAPENO_POWDER_BAG = BLOCKS.register("jalapeno_powder_bag",
+            () -> new Block(Block.Properties.copy(Blocks.WHITE_WOOL)));
     //WILD CROPS
     public static final RegistryObject<Block> WILD_JALAPENOS = BLOCKS.register("wild_jalapenos",
             () -> new WildCropBlock(MobEffects.FIRE_RESISTANCE, 10, Block.Properties.copy(Blocks.TALL_GRASS)));
@@ -39,11 +38,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> OLIVE_PLANKS = BLOCKS.register("olive_planks",
             () -> new PlankBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> OLIVE_LEAVES = BLOCKS.register("olive_leaves",
-            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+            () -> new FlammableLeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Block> OLIVE_SAPLING = BLOCKS.register("olive_sapling",
             () -> new SaplingBlock(new OliveTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> OLIVE_LOG = BLOCKS.register("olive_log",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+            () -> new FlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> OLIVE_WOOD = BLOCKS.register("olive_wood",
+            () -> new FlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_OLIVE_WOOD = BLOCKS.register("stripped_olive_wood",
+            () -> new FlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_OLIVE_LOG = BLOCKS.register("stripped_olive_log",
+            () -> new FlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
     public static final RegistryObject<Block> OLIVE_CABINET = BLOCKS.register("olive_cabinet",
             () -> new CabinetBlock(Block.Properties.copy(Blocks.BARREL)));
+
 }

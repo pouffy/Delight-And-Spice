@@ -1,0 +1,7 @@
+{
+  "name": "Spice Guide",
+  "landing_text": "Somewhat helpful guide to help with spices",
+  "version": 1,
+  "model": "delightandspice:spice_guide",
+  "book_texture": "delightandspice:textures/gui/spice_guide/book_texture.png"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Smoking",
+  "icon": "minecraft:smoker",
+  "category": "delightandspice:chillis",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:smoker",
+      "text": "Chillis can be smoked in a smoker. This makes it easier to crush the powder from it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smoker",
+      "text": "You can also find smokers in villages inside the butchers house"
+    }
+  ]
+}
